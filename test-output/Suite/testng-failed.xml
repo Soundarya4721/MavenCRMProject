@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test name="Test(failed)">
     <classes>
       <class name="com.PCRM.Testcases.ContactsPageTestCase">
         <methods>
           <include name="quit"/>
+          <include name="clickoncontacttab"/>
           <include name="clicknewcntct"/>
           <include name="setup"/>
           <include name="verifyaddcontactdetails" invocation-numbers="0"/>

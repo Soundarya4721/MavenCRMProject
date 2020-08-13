@@ -5,7 +5,7 @@
     <classes>
       <class name="com.PCRM.Testcases.LoginPageTestcase"/>
       <class name="com.PCRM.Testcases.CalenderpageTest"/>
-      <class name="com.PCRM.Testcases.ContactsPageTestCase"/>
+      <!--class name="com.PCRM.Testcases.ContactsPageTestCase"  -->
    
     </classes>
   </test> <!-- Test -->

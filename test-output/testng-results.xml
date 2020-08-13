@@ -1,58 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-04T13:31:00Z" name="Suite" finished-at="2020-08-04T13:31:32Z" duration-ms="31499">
+  <suite started-at="2020-08-13T15:36:06Z" name="Default suite" finished-at="2020-08-13T15:36:28Z" duration-ms="22196">
     <groups>
     </groups>
-    <test started-at="2020-08-04T13:31:00Z" name="Test" finished-at="2020-08-04T13:31:32Z" duration-ms="31499">
-      <class name="com.PCRM.Testcases.LoginPageTestcase">
-        <test-method signature="gettitle()[pri:1, instance:com.PCRM.Testcases.LoginPageTestcase@5aebe890]" started-at="2020-08-04T19:01:12Z" name="gettitle" finished-at="2020-08-04T19:01:12Z" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gettitle -->
-        <test-method signature="verifyloginfunction()[pri:2, instance:com.PCRM.Testcases.LoginPageTestcase@5aebe890]" started-at="2020-08-04T19:01:20Z" name="verifyloginfunction" finished-at="2020-08-04T19:01:28Z" duration-ms="8311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyloginfunction -->
-      </class> <!-- com.PCRM.Testcases.LoginPageTestcase -->
-      <class name="com.PCRM.Testcases.CalenderpageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.PCRM.Testcases.CalenderpageTest@65d09a04]" started-at="2020-08-04T19:01:00Z" name="setup" finished-at="2020-08-04T19:01:06Z" duration-ms="6037" status="PASS">
+    <test started-at="2020-08-13T15:36:06Z" name="Default test" finished-at="2020-08-13T15:36:28Z" duration-ms="22196">
+      <class name="com.PCRM.Testcases.ContactsPageTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.PCRM.Testcases.ContactsPageTestCase@394df057]" started-at="2020-08-13T21:06:06Z" name="setup" finished-at="2020-08-13T21:06:09Z" duration-ms="3287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.PCRM.Testcases.LoginPageTestcase@5aebe890]" started-at="2020-08-04T19:01:06Z" name="setup" finished-at="2020-08-04T19:01:12Z" duration-ms="6230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:com.PCRM.Testcases.CalenderpageTest@65d09a04]" started-at="2020-08-04T19:01:12Z" name="login" finished-at="2020-08-04T19:01:20Z" duration-ms="7598" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.PCRM.Testcases.ContactsPageTestCase@394df057]" started-at="2020-08-13T21:06:09Z" name="login" finished-at="2020-08-13T21:06:27Z" duration-ms="18242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="clickonclender()[pri:2, instance:com.PCRM.Testcases.CalenderpageTest@65d09a04]" started-at="2020-08-04T19:01:28Z" name="clickonclender" finished-at="2020-08-04T19:01:30Z" duration-ms="1495" status="PASS">
+        <test-method signature="clickoncontacttab()[pri:2, instance:com.PCRM.Testcases.ContactsPageTestCase@394df057]" started-at="2020-08-13T21:06:27Z" name="clickoncontacttab" finished-at="2020-08-13T21:06:28Z" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickonclender -->
-        <test-method signature="clickeventoncalenderpage(java.lang.String)[pri:3, instance:com.PCRM.Testcases.CalenderpageTest@65d09a04]" started-at="2020-08-04T19:01:30Z" name="clickeventoncalenderpage" data-provider="getCaldendardata" finished-at="2020-08-04T19:01:31Z" duration-ms="1254" status="PASS">
+        </test-method> <!-- clickoncontacttab -->
+        <test-method signature="clicknewcntct()[pri:3, instance:com.PCRM.Testcases.ContactsPageTestCase@394df057]" started-at="2020-08-13T21:06:28Z" name="clicknewcntct" finished-at="2020-08-13T21:06:28Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.PCRM.Testcases.ContactsPageTestCase.clicknewcntct(ContactsPageTestCase.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicknewcntct -->
+        <test-method signature="verifyaddcontactdetails(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.PCRM.Testcases.ContactsPageTestCase@394df057]" started-at="2020-08-13T21:06:28Z" name="verifyaddcontactdetails" data-provider="getCRMTestData" finished-at="2020-08-13T21:06:28Z" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[MusicalEvent]]>
+                <![CDATA[Lalitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Soundarya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[789894666]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.PCRM.Testcases.ContactsPageTestCase.verifyaddcontactdetails(ContactsPageTestCase.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickeventoncalenderpage -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.PCRM.Testcases.CalenderpageTest@65d09a04]" started-at="2020-08-04T19:01:31Z" name="quit" finished-at="2020-08-04T19:01:32Z" duration-ms="105" status="PASS">
+        </test-method> <!-- verifyaddcontactdetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.PCRM.Testcases.ContactsPageTestCase@394df057]" started-at="2020-08-13T21:06:28Z" name="quit" finished-at="2020-08-13T21:06:28Z" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.PCRM.Testcases.LoginPageTestcase@5aebe890]" started-at="2020-08-04T19:01:32Z" name="quit" finished-at="2020-08-04T19:01:32Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.PCRM.Testcases.CalenderpageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.PCRM.Testcases.ContactsPageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
