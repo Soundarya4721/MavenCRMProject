@@ -3,15 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test name="Test(failed)">
     <classes>
-      <class name="com.PCRM.Testcases.ContactsPageTestCase">
+      <class name="com.PCRM.Testcases.CalenderpageTest">
         <methods>
+          <include name="clickeventoncalenderpage" invocation-numbers="0"/>
           <include name="quit"/>
-          <include name="clickoncontacttab"/>
-          <include name="clicknewcntct"/>
           <include name="setup"/>
-          <include name="verifyaddcontactdetails" invocation-numbers="0"/>
+          <include name="clickonclender"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.PCRM.Testcases.ContactsPageTestCase -->
+      </class> <!-- com.PCRM.Testcases.CalenderpageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

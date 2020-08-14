@@ -1,102 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-14T04:46:26Z" name="Default suite" finished-at="2020-08-14T04:47:15Z" duration-ms="49211">
+  <suite started-at="2020-08-14T13:00:00Z" name="Suite" finished-at="2020-08-14T13:00:24Z" duration-ms="24048">
     <groups>
     </groups>
-    <test started-at="2020-08-14T04:46:26Z" name="Default test" finished-at="2020-08-14T04:47:15Z" duration-ms="49211">
+    <test started-at="2020-08-14T13:00:00Z" name="Test" finished-at="2020-08-14T13:00:24Z" duration-ms="24048">
       <class name="com.PCRM.Testcases.LoginPageTestcase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T10:16:26Z" name="setup" finished-at="2020-08-14T10:16:29Z" duration-ms="3623" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T18:30:00Z" name="setup" finished-at="2020-08-14T18:30:03Z" duration-ms="2703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="gettitle()[pri:1, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T10:16:29Z" name="gettitle" finished-at="2020-08-14T10:16:29Z" duration-ms="12" status="PASS">
+        <test-method signature="gettitle()[pri:1, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T18:30:03Z" name="gettitle" finished-at="2020-08-14T18:30:03Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettitle -->
-        <test-method signature="verifyloginfunction()[pri:2, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T10:16:29Z" name="verifyloginfunction" finished-at="2020-08-14T10:17:15Z" duration-ms="45455" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.125)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'USHYDLTATAVART2', ip: '2406:b400:d1:380a:60cf:6b2b:6425:2c29%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '11.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/s8/_75wl6b15gn...}, goog:chromeOptions: {debuggerAddress: localhost:50112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d00ea2a0c975f6c91c54bc495247636e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.125)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'USHYDLTATAVART2', ip: '2406:b400:d1:380a:60cf:6b2b:6425:2c29%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '11.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/s8/_75wl6b15gn...}, goog:chromeOptions: {debuggerAddress: localhost:50112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d00ea2a0c975f6c91c54bc495247636e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
-	at com.sun.proxy.$Proxy15.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at com.PCRM.pages.LoginPage.loginfunction(LoginPage.java:38)
-	at com.PCRM.Testcases.LoginPageTestcase.verifyloginfunction(LoginPageTestcase.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verifyloginfunction()[pri:2, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T18:30:03Z" name="verifyloginfunction" finished-at="2020-08-14T18:30:24Z" duration-ms="20624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginfunction -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T10:17:15Z" name="quit" finished-at="2020-08-14T10:17:15Z" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.PCRM.Testcases.LoginPageTestcase@3c3d9b6b]" started-at="2020-08-14T18:30:24Z" name="quit" finished-at="2020-08-14T18:30:24Z" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.PCRM.Testcases.LoginPageTestcase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
